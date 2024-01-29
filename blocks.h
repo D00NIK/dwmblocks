@@ -4,7 +4,7 @@ static const Block blocks[] = {
 	{"", "dwmblocks-nettraf",					        1,		0},
 	{"", "dwmblocks-battery",					       15,		0},
 	{"", "dwmblocks-internet",					       15,		0},
-	{"", "date '+%b %d (%a) %H:%M'",				       60,		0},
+	{"", "date '+%b %d (%a) %I:%M%p'",				       60,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
